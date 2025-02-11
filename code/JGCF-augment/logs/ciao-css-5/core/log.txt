@@ -1,0 +1,21 @@
+2025-02-06 13:14:31,243:	========================================================================
+2025-02-06 13:14:31,243:	========================================================================
+2025-02-06 13:14:31,243:	========================================================================
+2025-02-06 13:14:31,243:	[Wall TIME] >>> CoreParser.compile takes 0.004051 seconds ...
+2025-02-06 13:14:31,243:	[0;31;47mcommand: python main.py --root=../../data --dataset=Ciao_330_MMRec --description=ciao-css-5 
+envs: 
+	root: ../../data 
+	dataset: Ciao_330_MMRec 
+	device: 3,3 
+	description: ciao-css-5 
+params: 
+	seed: [0, 1, 2, 3, 4] 
+defaults: 
+	config: configs/Ciao_330_MMRec.yaml 
+[0m
+2025-02-06 13:14:31,243:	[Wall TIME] >>> Adapter.compile takes 0.000157 seconds ...
+2025-02-06 13:14:32,244:	[0;31;47mpython main.py --root=../../data --dataset=Ciao_330_MMRec --description=ciao-css-5 --id=0206131432 --device=3 --config=configs/Ciao_330_MMRec.yaml --seed=0[0m
+2025-02-06 13:14:33,247:	[0;31;47mpython main.py --root=../../data --dataset=Ciao_330_MMRec --description=ciao-css-5 --id=0206131433 --device=3 --config=configs/Ciao_330_MMRec.yaml --seed=1[0m
+2025-02-06 13:36:31,085:	[0;31;47mpython main.py --root=../../data --dataset=Ciao_330_MMRec --description=ciao-css-5 --id=0206133631 --device=3 --config=configs/Ciao_330_MMRec.yaml --seed=2[0m
+2025-02-06 13:36:32,089:	[0;31;47mpython main.py --root=../../data --dataset=Ciao_330_MMRec --description=ciao-css-5 --id=0206133632 --device=3 --config=configs/Ciao_330_MMRec.yaml --seed=3[0m
+2025-02-06 13:58:09,031:	[0;31;47mpython main.py --root=../../data --dataset=Ciao_330_MMRec --description=ciao-css-5 --id=0206135809 --device=3 --config=configs/Ciao_330_MMRec.yaml --seed=4[0m

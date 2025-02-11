@@ -1,0 +1,21 @@
+2025-02-06 17:17:38,826:	========================================================================
+2025-02-06 17:17:38,826:	========================================================================
+2025-02-06 17:17:38,826:	========================================================================
+2025-02-06 17:17:38,827:	[Wall TIME] >>> CoreParser.compile takes 0.004217 seconds ...
+2025-02-06 17:17:38,827:	[0;31;47mcommand: python main.py --root=../../data --dataset=Amazon2014Sports_550_MMRec --description=sports-css-5 
+envs: 
+	root: ../../data 
+	dataset: Amazon2014Sports_550_MMRec 
+	device: 3,3 
+	description: sports-css-5 
+params: 
+	seed: [0, 1, 2, 3, 4] 
+defaults: 
+	config: configs/Amazon2014Sports_550_MMRec.yaml 
+[0m
+2025-02-06 17:17:38,827:	[Wall TIME] >>> Adapter.compile takes 0.000164 seconds ...
+2025-02-06 17:17:39,828:	[0;31;47mpython main.py --root=../../data --dataset=Amazon2014Sports_550_MMRec --description=sports-css-5 --id=0206171739 --device=3 --config=configs/Amazon2014Sports_550_MMRec.yaml --seed=0[0m
+2025-02-06 17:17:40,831:	[0;31;47mpython main.py --root=../../data --dataset=Amazon2014Sports_550_MMRec --description=sports-css-5 --id=0206171740 --device=3 --config=configs/Amazon2014Sports_550_MMRec.yaml --seed=1[0m
+2025-02-06 18:03:48,663:	[0;31;47mpython main.py --root=../../data --dataset=Amazon2014Sports_550_MMRec --description=sports-css-5 --id=0206180348 --device=3 --config=configs/Amazon2014Sports_550_MMRec.yaml --seed=2[0m
+2025-02-06 18:03:56,670:	[0;31;47mpython main.py --root=../../data --dataset=Amazon2014Sports_550_MMRec --description=sports-css-5 --id=0206180356 --device=3 --config=configs/Amazon2014Sports_550_MMRec.yaml --seed=3[0m
+2025-02-06 18:45:45,057:	[0;31;47mpython main.py --root=../../data --dataset=Amazon2014Sports_550_MMRec --description=sports-css-5 --id=0206184545 --device=3 --config=configs/Amazon2014Sports_550_MMRec.yaml --seed=4[0m

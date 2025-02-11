@@ -1,0 +1,21 @@
+2025-02-06 19:51:29,132:	========================================================================
+2025-02-06 19:51:29,132:	========================================================================
+2025-02-06 19:51:29,132:	========================================================================
+2025-02-06 19:51:29,132:	[Wall TIME] >>> CoreParser.compile takes 0.004297 seconds ...
+2025-02-06 19:51:29,133:	[0;31;47mcommand: python main.py --root=../../data --dataset=Amazon2014Electronics_550_MMRec --description=ele-css-5 
+envs: 
+	root: ../../data 
+	dataset: Amazon2014Electronics_550_MMRec 
+	device: 3,3 
+	description: ele-css-5 
+params: 
+	seed: [0, 1, 2, 3, 4] 
+defaults: 
+	config: configs/Amazon2014Electronics_550_MMRec.yaml 
+[0m
+2025-02-06 19:51:29,133:	[Wall TIME] >>> Adapter.compile takes 0.000159 seconds ...
+2025-02-06 19:51:30,134:	[0;31;47mpython main.py --root=../../data --dataset=Amazon2014Electronics_550_MMRec --description=ele-css-5 --id=0206195130 --device=3 --config=configs/Amazon2014Electronics_550_MMRec.yaml --seed=0[0m
+2025-02-06 19:51:31,136:	[0;31;47mpython main.py --root=../../data --dataset=Amazon2014Electronics_550_MMRec --description=ele-css-5 --id=0206195131 --device=3 --config=configs/Amazon2014Electronics_550_MMRec.yaml --seed=1[0m
+2025-02-07 11:06:11,049:	[0;31;47mpython main.py --root=../../data --dataset=Amazon2014Electronics_550_MMRec --description=ele-css-5 --id=0207110611 --device=3 --config=configs/Amazon2014Electronics_550_MMRec.yaml --seed=2[0m
+2025-02-07 11:06:54,142:	[0;31;47mpython main.py --root=../../data --dataset=Amazon2014Electronics_550_MMRec --description=ele-css-5 --id=0207110654 --device=3 --config=configs/Amazon2014Electronics_550_MMRec.yaml --seed=3[0m
+2025-02-08 02:24:11,954:	[0;31;47mpython main.py --root=../../data --dataset=Amazon2014Electronics_550_MMRec --description=ele-css-5 --id=0208022411 --device=3 --config=configs/Amazon2014Electronics_550_MMRec.yaml --seed=4[0m

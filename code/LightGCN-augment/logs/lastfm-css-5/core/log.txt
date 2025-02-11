@@ -1,0 +1,21 @@
+2025-02-08 11:03:02,319:	========================================================================
+2025-02-08 11:03:02,319:	========================================================================
+2025-02-08 11:03:02,319:	========================================================================
+2025-02-08 11:03:02,319:	[Wall TIME] >>> CoreParser.compile takes 0.005178 seconds ...
+2025-02-08 11:03:02,320:	[0;31;47mcommand: python main.py --root=../../data --dataset=LastFM_330_MMRec --description=lastfm-css-5 
+envs: 
+	root: ../../data 
+	dataset: LastFM_330_MMRec 
+	device: 1 
+	description: lastfm-css-5 
+params: 
+	seed: [0, 1, 2, 3, 4] 
+defaults: 
+	config: configs/LastFM_330_MMRec.yaml 
+[0m
+2025-02-08 11:03:02,320:	[Wall TIME] >>> Adapter.compile takes 0.000171 seconds ...
+2025-02-08 11:03:03,322:	[0;31;47mpython main.py --root=../../data --dataset=LastFM_330_MMRec --description=lastfm-css-5 --id=0208110303 --device=1 --config=configs/LastFM_330_MMRec.yaml --seed=0[0m
+2025-02-08 11:16:15,992:	[0;31;47mpython main.py --root=../../data --dataset=LastFM_330_MMRec --description=lastfm-css-5 --id=0208111615 --device=1 --config=configs/LastFM_330_MMRec.yaml --seed=1[0m
+2025-02-08 11:32:02,660:	[0;31;47mpython main.py --root=../../data --dataset=LastFM_330_MMRec --description=lastfm-css-5 --id=0208113202 --device=1 --config=configs/LastFM_330_MMRec.yaml --seed=2[0m
+2025-02-08 11:47:49,267:	[0;31;47mpython main.py --root=../../data --dataset=LastFM_330_MMRec --description=lastfm-css-5 --id=0208114749 --device=1 --config=configs/LastFM_330_MMRec.yaml --seed=3[0m
+2025-02-08 12:03:28,869:	[0;31;47mpython main.py --root=../../data --dataset=LastFM_330_MMRec --description=lastfm-css-5 --id=0208120328 --device=1 --config=configs/LastFM_330_MMRec.yaml --seed=4[0m

@@ -1,0 +1,21 @@
+2025-02-06 16:04:49,215:	========================================================================
+2025-02-06 16:04:49,215:	========================================================================
+2025-02-06 16:04:49,216:	========================================================================
+2025-02-06 16:04:49,216:	[Wall TIME] >>> CoreParser.compile takes 0.004114 seconds ...
+2025-02-06 16:04:49,216:	[0;31;47mcommand: python main.py --root=../../data --dataset=Amazon2014Baby_550_MMRec --description=baby-css-5 
+envs: 
+	root: ../../data 
+	dataset: Amazon2014Baby_550_MMRec 
+	device: 3,3 
+	description: baby-css-5 
+params: 
+	seed: [0, 1, 2, 3, 4] 
+defaults: 
+	config: configs/Amazon2014Baby_550_MMRec.yaml 
+[0m
+2025-02-06 16:04:49,216:	[Wall TIME] >>> Adapter.compile takes 0.000149 seconds ...
+2025-02-06 16:04:50,218:	[0;31;47mpython main.py --root=../../data --dataset=Amazon2014Baby_550_MMRec --description=baby-css-5 --id=0206160450 --device=3 --config=configs/Amazon2014Baby_550_MMRec.yaml --seed=0[0m
+2025-02-06 16:04:51,221:	[0;31;47mpython main.py --root=../../data --dataset=Amazon2014Baby_550_MMRec --description=baby-css-5 --id=0206160451 --device=3 --config=configs/Amazon2014Baby_550_MMRec.yaml --seed=1[0m
+2025-02-06 16:30:40,285:	[0;31;47mpython main.py --root=../../data --dataset=Amazon2014Baby_550_MMRec --description=baby-css-5 --id=0206163040 --device=3 --config=configs/Amazon2014Baby_550_MMRec.yaml --seed=2[0m
+2025-02-06 16:30:48,312:	[0;31;47mpython main.py --root=../../data --dataset=Amazon2014Baby_550_MMRec --description=baby-css-5 --id=0206163048 --device=3 --config=configs/Amazon2014Baby_550_MMRec.yaml --seed=3[0m
+2025-02-06 16:53:28,195:	[0;31;47mpython main.py --root=../../data --dataset=Amazon2014Baby_550_MMRec --description=baby-css-5 --id=0206165328 --device=3 --config=configs/Amazon2014Baby_550_MMRec.yaml --seed=4[0m

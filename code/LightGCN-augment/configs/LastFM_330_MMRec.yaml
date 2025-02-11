@@ -1,0 +1,22 @@
+root: ../../data
+dataset: LastFM_330_MMRec
+tasktag: MATCHING
+
+embedding_dim: 64
+num_layers: 3
+
+epochs: 500
+batch_size: 2048
+optimizer: adam
+lr: 5.e-3
+weight_decay: 1.e-6
+
+monitors: [LOSS, Recall@1, Recall@10, Recall@20, NDCG@10, NDCG@20]
+which4best: NDCG@20
+
+vfile: Null
+tfile: Null
+
+soc_kappa: 1.0
+shift_alpha: 0.0
+shift_beta: 0.5
