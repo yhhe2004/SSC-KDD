@@ -22,8 +22,8 @@ cfg.add_argument("--weight4mid", type=float, default=0.1, help="weight for scali
 
 cfg.add_argument("--mod_kappa", type=int, default=0)
 cfg.add_argument("--soc_kappa", type=float, default=0)
-cfg.add_argument("--shift_alpha", type=float, default=0.0)
-cfg.add_argument("--shift_beta", type=float, default=1.0)
+cfg.add_argument("--shift_mu", type=float, default=0.0)
+cfg.add_argument("--shift_delta", type=float, default=1.0)
 cfg.add_argument("--weight4mAdj", type=float, default=0.1, help="weight for fusing vAdj and tAd")
 cfg.add_argument("--noise_scale", type=float, default=0.0) # for robustness evaluation
 

@@ -22,5 +22,5 @@ vfile: visual_modality.pkl
 tfile: textual_modality.pkl
 
 mod_kappa: 5
-shift_alpha: 0.05
-shift_beta: 0.85
+shift_mu: 0.05
+shift_delta: 0.85

@@ -23,5 +23,5 @@ vfile: Null
 tfile: Null
 
 soc_kappa: 0.75
-shift_alpha: 0.0
-shift_beta: 0.55
+shift_mu: 0.0
+shift_delta: 0.55

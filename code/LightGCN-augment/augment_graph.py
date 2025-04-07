@@ -42,7 +42,7 @@ def get_graph(dataset, cfg, user_count, item_count):
 
     eye_tensor = torch.tile(torch.arange(0, user_count+item_count), (2, 1))
     edge_index = torch.cat([edge_index, eye_tensor], dim=1)
-    edge_weight = torch.cat([edge_weight, - torch.ones_like(eye_tensor[0]) * cfg.shift_alpha]) / cfg.shift_beta
+    edge_weight = torch.cat([edge_weight, - torch.ones_like(eye_tensor[0]) * cfg.shift_mu]) / cfg.shift_delta
 
     A = torch.sparse_coo_tensor(
             edge_index, edge_weight.to(dtype=torch.float32),
